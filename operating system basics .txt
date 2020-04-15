@@ -1,4 +1,4 @@
-Linux is a operating system  that is interface between hardware and application.
+operating system is a interface provide the capability of communications between hardware and application.
 
 
 official discription of operating system (source =internet)
