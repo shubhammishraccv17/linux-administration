@@ -1,0 +1,115 @@
+Linux is a operating system  that is interface between hardware and application.
+
+
+official discription of operating system (source =internet)
+
+An operating system or OS is a software program that enables the computer hardware to communicate and operate with the 
+computer software. Without a computer operating system, a computer and software programs would be useless. 
+An operating system (sometimes abbreviated as "OS") is the program that, after being initially loaded into the computer
+ by a boot program, manages all the other programs in a computer. The other programs are called applications or application
+  programs. The application programs make use of the operating system by making requests for services through a defined 
+  application program interface (API). In addition, users can interact directly with the operating system through a user 
+  interface such as a command language or a graphical user interface (GUI).
+
+An operating system performs these services for applications:
+    • In a multitasking operating system where multiple programs can be running at the same time, the operating system determines which applications should run in what order and how much time should be allowed for each application before giving another application a turn.
+    • It manages the sharing of internal memory among multiple applications.
+    • It handles input and output to and from attached hardware devices, such as hard disks, printers, and dial-up ports. 
+    • It sends messages to each application or interactive user (or to a system operator) about the status of operation and any errors that may have occurred.
+    • It can offload the management of what are called batch jobs (for example, printing) so that the initiating application is freed from this work.
+    • On computers that can provide parallel processing, an operating system can manage how to divide the program so that it runs on more than one processor at a time.
+
+Examples of computer operating systems
+    • Redhat – Very popular Linux operating system from Redhat 
+    • Microsoft Windows - PC and IBM compatible operating system. Microsoft Windows is the most commonly found and used 1
+    operating system in PCs
+    • Apple MacOS - Apple computer operating system. The only Apple computer operating system.
+    • Ubuntu Linux - A popular variant of Linux used with PC and IBM compatible computers.
+    • Google Android - operating system used with Android compatible phones.
+    • iOS - Operating system used with the Apple iPhone.
+
+Various Parts of an Operating System
+
+UNIX and 'UNIX-like' operating systems (such as Linux) consist of a kernel and some system programs. 
+There are also some application programs for doing work. The kernel is the heart of the operating system. 
+In fact, it is often mistakenly considered to be the operating system itself, but it is not.
+ An operating system provides many more services than a plain kernel.
+
+It keeps track of files on the disk, starts programs and runs them concurrently, assigns memory and other resources to various
+ processes, receives packets from and sends packets to the network, and so on. The kernel does very little by itself, but it
+  provides tools with which all services can be built. It also prevents anyone from accessing the hardware directly, forcing 
+  everyone to use the tools it provides. This way the kernel provides some protection for users from each other. The tools 
+  provided by the kernel are used via system calls. 
+
+The system programs use the tools provided by the kernel to implement the various services required from an operating system.
+ System programs, and all other programs, run `on top of the kernel', in what is called the user mode. 
+ The difference between system and application programs is one of intent: applications are intended for getting useful things 
+ done (or for playing, if it happens to be a game), whereas system programs are needed to get the system working. 
+ A word processor is an application; mount is a system program. The difference is often somewhat blurry, however, and is
+  important only to compulsive categorizers.An operating system can also contain compilers and their corresponding libraries 
+  (GCC and the C library in particular under Linux), although not all programming languages need be part of the operating
+   system. Documentation, and sometimes even games, can also be part of it. 
+   
+   The Linux kernel consists of several important parts: 
+
+
+    • Process management
+    • Memory management
+    • Hardware device drivers
+    • Filesystem drivers
+    • Network management
+    • Various other bits and pieces
+
+
+
+
+
+
+
+
+
+
+difference beteen unix and Linux(source =me)
+
+unix was first developed in bell labs for multi-user and multi-tasking by ATT,GE and MIT(massachutes )
+linux is mostly free and open source . some distribution are paid like redhat
+
+unix is mostly used by sun as soloaris which is now buyed by oracle,hp-ux etc
+linux is supported by many developer communities and companies.
+
+unix support very few file system
+lot more file system in linux
+
+linux can be installed on various varities of hardware like resberry phie to mainframe.
+unix is only installed on certain hardware.
+
+some hardware information
+
+Harddisk
+A hard disk is part of a unit, often called a "disk drive," "hard drive," or "hard disk drive,"
+ that stores and provides relatively quick access to large amounts of data on an electromagnetically charged surface or
+  set of surfaces. Today's computers typically come with a hard disk that contains several billion bytes (gigabytes) of storage. 
+
+A hard disk is really a set of stacked "disks," each of which, like phonograph records, has data recorded electromagnetically 
+in concentric circles or "tracks" on the disk. A "head" (something like a phonograph arm but in a relatively fixed position) 
+records (writes) or reads the information on the tracks. Two heads, one on each side of a disk, read or write the data as the 
+disk spins. Each read or write operation requires that data be located, which is an operation called a "seek." (Data already
+ in a disk cache, however, will be located more quickly.) 
+
+
+
+A hard disk/drive unit comes with a set rotation speed varying from 4500 to 7200 rpm. 
+Disk access time is measured in milliseconds. Although the physical location can be identified with cylinder, track, and 
+sector locations, these are actually mapped to a logical block address (LBA) that works with the larger address range on 
+today's hard disks.
+
+
+cache disk
+A disk cache is a mechanism for improving the time it takes to read from or write to a hard disk.  
+Today, the disk cache is usually included as part of the hard disk.  A disk cache can also be a specified portion of random 
+access memory (RAM). 
+The disk cache holds data that has recently been read and, in some cases, adjacent data areas that are likely to be accessed 
+next. Write caching is also provided with some disk caches. 
+
+
+
